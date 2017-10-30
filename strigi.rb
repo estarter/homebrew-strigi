@@ -1,8 +1,8 @@
 class Strigi < Formula
   desc "Program for fast indexing and searching personal data"
   homepage "http://www.vandenoever.info/software/strigi/"
-  url "http://www.vandenoever.info/software/strigi/strigi-0.7.2.tar.bz2"
-  sha256 "1ca421bbe420d1839bbe6bfe7c4b52a05590a9b7a7eda77924b554c98e602ab8"
+  url "http://www.vandenoever.info/software/strigi/strigi-0.7.8.tar.bz2"
+  sha256 "43e461a625acdefa59bf58cc9d10aebda9eba920dfbe800fc77e6dcbf1eff989"
 
   depends_on "cmake" => :build
   depends_on "clucene"
