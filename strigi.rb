@@ -14,7 +14,7 @@ class Strigi < Formula
 
     system "cmake", ".", "-DENABLE_EXPAT:BOOL=ON",
                          "-DENABLE_DBUS:BOOL=OFF",
-                         *std_cmake_parameters
+                         *std_cmake_args
     system "make", "install"
   end
 end
